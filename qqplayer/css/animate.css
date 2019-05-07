@@ -1,0 +1,76 @@
+.current .sec1-title{animation:sec_title 1s;}
+@keyframes sec_title{0%{transform:scale(2);}
+                    100%{transform:scale(1);}
+                    }
+.current .sec1-info,.current .sec1-vip,.current .screen-area{animation:sec_info 1s forwards;}
+@keyframes sec_info{
+                    0%{transform:translateY(100px);}
+                    100%{transform:translateY(0px);opacity:1;}
+}
+.current .figure-1::after{animation:figure_1 1s infinite;}
+@keyframes figure_1{0%{transform:scale(4);}
+                    100%{transform:scale(1);}}
+.current .icon{animation:ico_1 1s forwards;}
+@keyframes ico_1{0%{transform:translateX(-100px) rotate(-90deg);}
+                50%{transform:translateX(0),rotate(-90deg);}}
+
+.current .icon-9{animation:icon_2 5s linear forwards;}
+@keyframes icon_2{25%{top:450px;margin-left:-170px;transform:scale(0.6);}
+                50%{top:545px;margin-left:-90px;transform:scale(0.7);}
+                75%{top:595px;margin-left:100px;transform:scale(1);}
+                100%{top:595px;margin-left:330px;transform:scale(1.3);}
+                }
+ .current .icon-8{animation:icon_3 5s linear forwards;}
+@keyframes icon_3{25%{top:545px;margin-left:-90px;transform:scale(0.7);}
+                   50%{top:595px;margin-left:100px;transform:scale(1);}
+                   75%{top:595px;margin-left:330px;transform:scale(1.3);}
+                   100%{top:500px;margin-left:500px;transform:scale(1);}
+                  }
+ .current .icon-7{animation:icon_4 5s linear forwards;}
+ @keyframes icon_4{25%{top:595px;margin-left:100px;transform:scale(1);}
+                    50%{top:595px;margin-left:330px;transform:scale(1.3);}
+                    75%{top:500px;margin-left:500px;transform:scale(1);}
+                    100%{top:365px;margin-left:420px;transform:scale(0.8);}
+                   }
+.current .icon-1{animation:icon_5 5s linear forwards;}
+ @keyframes icon_5{25%{top:595px;margin-left:330px;transform:scale(1.3);}
+                   50%{top:500px;margin-left:500px;transform:scale(1);}
+                   75%{top:365px;margin-left:420px;transform:scale(0.8);}
+                   100%{top:305px;margin-left:250px;transform:scale(0.6);} 
+                    }
+ /* .current .icon-2{animation:icon_6 5s;}
+@keyframes icon_6{25%{top:500px;margin-left:500px;transform:scale(1);}
+                  50%{top:365px;margin-left:420px;transform:scale(0.8);}
+                  75%{top:305px;margin-left:250px;transform:scale(0.6);}
+                  100%{top:313px;margin-left:90px;transform:scale(0.4);}
+                  } 
+.current .icon-3{animation:icon_7 5s;}
+@keyframes icon_7{25%{top:365px;margin-left:420px;transform:scale(0.8);}
+                  50%{top:305px;margin-left:250px;transform:scale(0.6);}
+                  75%{top:313px;margin-left:90px;transform:scale(0.4);}
+                  100%{top:350px;margin-left:-70px;transform:scale(0.5);}
+                  }   */
+.current .figure1-list span{animation:icon_12 1s forwards;}   
+@keyframes icon_12{0%{transform:scale(2);}100%{transform:scale(1);opacity:1 ;}}          
+.current .figure2-list{animation:icon_14 1s forwards;}   
+@keyframes icon_14{50%{transform:rotate(0deg) scale(1);opacity:1;}}  
+.current .figure2-list{animation:icon_15 1s infinite;}   
+@keyframes icon_15{0%{transform:translate(-2px);}100%{transform:translatex(0px);}}  
+.current .icon-bear{animation:bear 1s forwards;}
+@keyframes bear{0%{transform:translatex(-5px);}
+                100%{transform:translate(0px);}}
+ .current .icon-qana{animation:qana 1s forwards;}
+ @keyframes qana{0%{transform:translatex(-60px);}50%{transform:translatex(0px);}
+                  100%{transform:translate(-20px);}}
+.current .icon-babyq{animation:babyq 2s forwards;}
+@keyframes babyq{0%{transform:translatex(10px);}
+                
+                 100%{transform:translateX(0px);}}
+ .current .icon-dialog2{animation:dialog2 2s forwards;}
+ @keyframes dialog2{0%{opacity:0;}
+                    50%{transform:scale(1.2);opacity:1;}
+                    100%{transform:scale(1);}}
+.current .icon-bird{animation:bird 2s forwards;}
+@keyframes bird{0%{opacity:0;}
+                   50%{transform:translateY(10px);opacity:1;}
+                   100%{transform:translateY(0px);}}
