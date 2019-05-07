@@ -1,0 +1,97 @@
+header{height:78px;background:#ffffff;}
+header .common{height:78px;}
+header .common h1{float:left;width:151px;height:37px;background:url(../img/logo.png) no-repeat;margin:20px 42px 0 0;}
+header .common h1 a{display:block;width:151px;height:37px;}
+header .common form{float:left;width:300px;height:78px;padding-top:20px;}
+header .common form input{width:300px;height:36px;border:1px solid #cccccc;font-family: "微软雅黑";font-size:12px;color:#757575;}
+header .common ul{float:left;}
+header .common ul li{float:left;height:20px;margin-top:30px;line-height:20px;}
+header .common ul li a{color:#777777;}
+header .common ul li a:hover{color:#2c91c5;text-decoration:none;}
+header .common ul li:nth-of-type(1){margin-left:120px;margin-right:30px;}
+header .common ul li:nth-of-type(2){margin-right: 30px;}
+header .common ul li:nth-of-type(3){padding-right: 30px;border-right:1px solid #e6e6e6;}
+header .common ul li:nth-of-type(4){width:50px;height:30px;background:#169af3;margin:25px 10px 0 30px;line-height: 30px;text-align:center;border-radius:2px;}
+header .common ul li:nth-of-type(4) a{color:#fff;}
+header .common ul li:nth-of-type(5){width:50px;height:30px;margin:25px 0px 0 0px;line-height: 30px;text-align:center;border-radius:2px;border:1px solid #dbdbdb;}
+
+/* 头部 */
+nav{background:#2c323b;height:55px;}
+nav .common{height:55px;}
+nav .common .nav_left{height:55px;float:left;}
+nav .common .nav_left li{float:left;line-height:55px;padding:0 30px;height:55px;}
+nav .common .nav_left li a{color:#fff;font-size:16px;}
+nav .common .nav_left li a:hover{text-decoration:none;}
+/* nav .common .nav_left li:nth-of-type(3){background:#0c8ed9;} */
+nav .common .nav_left li:last-of-type{width:113px;height:55px;line-height:55px;padding:0 25px 0 30px;position:relative;z-index:50;}
+nav .common .nav_left li:last-of-type a{float:left;}
+nav .common .nav_left li:last-of-type em{width:11px;height:6px;float:left;background:url(../img/arrow_up.png);margin:25px 0 0 12px;}
+/* 搜索框更多目录left:499px;top:133px; */
+nav .common #posit .nav_more{position:absolute;top:55px;left:0px;float:right;z-index: 10;display:none;}
+nav .common #posit .nav_more li{width:113px;height:30px;background:#0a0a0a;text-align:center;line-height:30px;font-size:14px;padding-left:40px;}
+nav .common #posit .nav_more li:nth-of-type(3){background:#0a0a0a;}
+nav .common #posit .nav_more li:last-of-type{height:30;line-height:30px;}
+nav .common #posit .nav_more li a{color:#c2cdc9;text-decoration:none;}
+nav .common .nav_right{float:left;}
+nav .common .nav_right li{float:left;padding-left:50px;height:55px;line-height:60px;}
+nav .common .nav_right li a{text-decoration:none;color:#bbb;}
+nav .common .nav_right li a:hover{color:#0c8ed9;}
+nav .common .nav_right li:nth-of-type(1){background:url(../img/music_1.png) no-repeat 30px 23px;margin-left:92px;}
+nav .common .nav_right li:nth-of-type(2){background:url(../img/music_2.png) no-repeat 30px 23px;}
+nav .common .nav_right li:nth-of-type(3){background:url(../img/music_3.png) no-repeat 30px 23px;}
+nav .common .nav_right li:nth-of-type(4){background:url(../img/music_4.png) no-repeat 30px 23px;}
+nav .common .nav_right li:nth-of-type(5){background:url(../img/music_5.png) no-repeat 30px 23px;}
+/* 目录 */
+main{height:364px;padding-top:20px;}
+main .box{width:663px;height:325px;overflow:hidden;float:left;}
+main .box ul{width:4641px;height:325px;}
+main .box ul li{float:left;position:relative;}
+main .box ul li span{position:absolute;bottom:0;display:block;width:663px;height:40px;line-height:40px;background:rgba(0,0,0,0.7);}
+main .box ul li span i{float:left;color:#fff;font-style:normal;margin:0 5px 0 20px;}
+main .box ul li span em{float:left;width:18px;height:18px;background:url(../img/MV/play.png);margin:11px 0 0 0px;}
+/* p正常行内块在box下，相对于自己定位 */
+main .box p{display:inline-block;position:relative;bottom:27px;left:533px;}
+main .box p span{float:left;width:11px;height:11px;background:#fff;border-radius:50%;margin-right:9px;}
+/* main右边 */
+main .main_right{width:317px;height:325px;float:left;margin-left:20px;}
+main .main_right .main_right_top span{float:left;width:234px;height:30px;background:#deb200;color:#fff;padding:5px 0 0 16px;font-size:14px;}
+main .main_right .main_right_top a{float:left;width:82px;height:30px;background:#363636;color:#fff;margin-left:1px;line-height:30px;text-align:center;font-size:13px;}
+main .main_right .main_right_top a:hover{text-decoration: none;}
+main .main_right ul{float:left;background:url(../img/MV/bg.png) no-repeat -336px -218px;width:317px;height:293px;background-color:#363636;margin-top:2px;}
+main .main_right ul li{height:29px;line-height:29px;}
+/* 排行榜图标em占位数去区域 */
+main .main_right ul li em{float:left;width:35px;height:29px;}
+main .main_right ul li a{color:#fff;height:29px;}
+main .main_right ul li a:hover{text-decoration: none;color:#fff;}
+main .main_right ul li span{float:left;width:220px;height:29px;overflow:hidden;}
+main .main_right ul li i{font-style:normal;float:left;width:0px;height:18px;background:url(../img/MV/play.png);position:absolute;margin-top:7px;}
+/* main部分结束 */
+#mv{height:558px;}
+#mv .mv_left{width:220px;height:558px;float:left;}
+#mv .mv_left ul{width:210px;height:184px;}
+#mv .mv_left ul li{height:36px;line-height:36px;font-size:14px;text-align:center;}
+#mv .mv_left ul li:first-of-type{height:30px;line-height:30px;font-size:15px;color:#fff;background:#cfcfcf;margin-bottom:10px;}
+#mv .mv_left ul li:hover{background:#85d4f3;color:#fff;}
+/* mv左边点击样式 */
+.mv_li{background:#85d4f3;color:#fff;}
+#mv .mv_right{width:780px;height:558px;float:left;}
+#mv .mv_right p{height:30px;background:#cfcfcf;line-height:30px;text-align:center;color:#fff;font-size:15px;}
+#mv .mv_right ul{height:480px;background:#fff;}
+/* mv分页 */
+.mv_bottom{float:left;width:140px;height:110px;margin:10px 20px 0 0;position: relative;}
+.mv_bottom img{width:140px;height:78px;}
+.mv_bottom em{float:left;width:18px;height:18px;background:url(../img/MV/play.png);position: absolute;;bottom:44px;left:106px;}
+.mv_bottom span{float:left;height:32px;line-height:32px;padding-left:3px;overflow:hidden;}
+/*#mv .mv_right ul li:nth-of-type(5){margin-right:0;}*/
+/* span样式 */
+.spa .box_span{background:#0c8ed9;}
+
+
+
+footer{height: 319px;background: #2c323b;color: #b1b3b9;position: relative;}
+footer .about p{height: 48px;width: 100%;border-bottom: 1px solid #3d424a;line-height: 48px}
+footer .about a{color: #b1b3b9;padding: 0 15px 0 11px;border-right: 1px solid #b1b3b9}
+footer .about a:last-of-type{border: 0}
+footer .common {line-height: 30px;text-align: center;}
+footer .common p:first-of-type{margin-top: 44px}
+footer .common img{vertical-align: middle;margin-left: 6px}
